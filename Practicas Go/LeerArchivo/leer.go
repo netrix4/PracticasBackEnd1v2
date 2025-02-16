@@ -32,7 +32,7 @@ func main() {
     b2 := make([]byte, 2)
     n2, err := f.Read(b2)
     check(err)
-    fmt.Printf("%d bytes @ %d: ", n2, o2)
+    fmt.Printf("%d bytes @ -> %d: ", n2, o2)
     fmt.Printf("%v\n", string(b2[:n2]))
 
     _, err = f.Seek(2, io.SeekCurrent)
