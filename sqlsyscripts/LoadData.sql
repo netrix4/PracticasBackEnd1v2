@@ -95,7 +95,7 @@ CREATE TABLE establecimientos(
 
 -- LOAD DATA LOCAL INFILE '/home/mario/DirectorioPrueba/CSVsParaImportar/entidades.csv' replace INTO TABLE entidades FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 -- LOAD DATA LOCAL INFILE '/home/mario/DirectorioPrueba/CSVsParaImportar/asentamientos.csv' replace INTO TABLE asentamientos FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 LINES;
--- LOAD DATA LOCAL INFILE '/home/mario/DirectorioPrueba/CSVsParaImportar/centroscomerciales.csv' replace INTO TABLE centros_comerciales FIELDS TERMINATED BY '+' LINES TERMINATED BY '\n' IGNORE 1 LINES;
+-- LOAD DATA LOCAL INFILE '/home/mario/DirectorioPrueba/CSVsParaImportar/centros_comerciales.csv' replace INTO TABLE centros_comerciales FIELDS TERMINATED BY '+' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 -- LOAD DATA LOCAL INFILE '/home/mario/DirectorioPrueba/CSVsParaImportar/vialidades.csv' replace INTO TABLE vialidades FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 -- LOAD DATA LOCAL INFILE '/home/mario/DirectorioPrueba/CSVsParaImportar/municipios.csv' replace INTO TABLE municipios FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 -- LOAD DATA LOCAL INFILE '/home/mario/DirectorioPrueba/CSVsParaImportar/unidad_economica.csv' replace INTO TABLE unidad_economica FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 LINES;
